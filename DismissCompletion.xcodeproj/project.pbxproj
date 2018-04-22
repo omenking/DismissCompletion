@@ -14,6 +14,7 @@
 		49BDCFF9208A722900FECE6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49BDCFF7208A722900FECE6F /* LaunchScreen.storyboard */; };
 		49BDD004208A722900FECE6F /* DismissCompletionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BDD003208A722900FECE6F /* DismissCompletionTests.swift */; };
 		49BDD00F208A722900FECE6F /* DismissCompletionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BDD00E208A722900FECE6F /* DismissCompletionUITests.swift */; };
+		49BDD01D208A731000FECE6F /* ShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BDD01C208A731000FECE6F /* ShowViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		49BDD00A208A722900FECE6F /* DismissCompletionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DismissCompletionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49BDD00E208A722900FECE6F /* DismissCompletionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissCompletionUITests.swift; sourceTree = "<group>"; };
 		49BDD010208A722900FECE6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49BDD01C208A731000FECE6F /* ShowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		49BDCFED208A722800FECE6F /* DismissCompletion */ = {
 			isa = PBXGroup;
 			children = (
+				49BDD01C208A731000FECE6F /* ShowViewController.swift */,
 				49BDCFEE208A722800FECE6F /* AppDelegate.swift */,
 				49BDCFF0208A722800FECE6F /* ViewController.swift */,
 				49BDCFF2208A722800FECE6F /* Main.storyboard */,
@@ -258,6 +261,7 @@
 			files = (
 				49BDCFF1208A722800FECE6F /* ViewController.swift in Sources */,
 				49BDCFEF208A722800FECE6F /* AppDelegate.swift in Sources */,
+				49BDD01D208A731000FECE6F /* ShowViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +435,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HD458VF2NY;
 				INFOPLIST_FILE = DismissCompletion/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -448,6 +453,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HD458VF2NY;
 				INFOPLIST_FILE = DismissCompletion/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
